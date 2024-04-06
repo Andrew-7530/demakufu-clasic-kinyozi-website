@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: blueviolet;
+    background-image: url(../PROJECTS/dema/Screenshot_20230703-174310_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay {
+    background-color: rgba(54, 53, 53, 0.7);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 45px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: aqua;
+}
+
+span {
+    color: brown;
+}
+
+.cont {
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: yellow;
+}
+
+.cont h2 {
+    margin-bottom: 20px;
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: aquamarine;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+.logo {
+    color: aqua;
+}
+
+.socials ul {
+    list-style: none;
+}
+
+.socials ul li {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.socials ul li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+}
+
+.footer img {
+    width: 15px;
+    height: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    display: inline;
+}
+
+.footer a {
+    color: white;
+}
+
+table {
+    border: 2px solid black;
+    padding: 20px;
+    color: purple;
+}
+
+th {
+    padding-left: 50px;
+    font-size: 70px;
+}
+
+td {
+    padding-left: 40px;
+    font-size: 50px;
+}
+
+.logo h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: brown;
+}
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    border-top: 2px solid #28a745;
+}
+
+footer h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer h1 u {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer h1 u:hover {
+    text-decoration: underline;
+}
+
+footer b {
+    font-weight: bold;
+    color: #28a745;
+    font-size: 20px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
